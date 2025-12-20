@@ -56,7 +56,7 @@ print(max_sum)
 """
 
 # 3
-
+"""
 with open('40992.txt', 'r') as f:
     n = f.readlines()
     n = [int(e1) for e1 in n]
@@ -79,3 +79,4 @@ for i in range(len(n) - 1):
         if max_sum < (a + b):
             max_sum = (a + b)
 print(co, max_sum)
+"""
