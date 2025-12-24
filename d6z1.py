@@ -37,7 +37,7 @@ for i in range(16, 100):
 
 #3
 """
-for i in range(9):
+for i in '0123456789ABCDE':
     a = int(f'{i}B09', 17)
     b = int(f'{i}8E8', 15)
     if (a + b) % 155 == 0:
